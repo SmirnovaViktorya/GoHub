@@ -1,0 +1,772 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.backgroundMainShape {
+  width: 60%;
+  height: 120vh;
+  position: absolute;
+  right: 0;
+  background-image: url("images/shapeMainRight.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  z-index: -1;
+}
+
+.mainTown {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-image: url("images/mainTown.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  z-index: 0;
+}
+
+.mainBackground {
+  position: absolute;
+  background-image: url("images/mainBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.top {
+  width: 845px;
+  height: 700px;
+  left: 5%;
+}
+
+.left {
+  width: 556px;
+  height: 482px;
+  top: 745px;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoHeader {
+  width: 153px;
+  height: 47px;
+  background-image: url("images/headerLogo.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.headerNav {
+  width: 40%;
+  min-width: 430px;
+}
+.nav {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 19px;
+}
+
+.link {
+  text-decoration: none;
+  color: #32325d;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  background-color: #845cff;
+  color: white;
+  cursor: pointer;
+}
+
+.signIn {
+  padding: 10px 23px;
+  font-size: 19px;
+}
+
+.mainSection {
+  margin: 0 auto;
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+}
+
+.mainInfo {
+  width: 35%;
+  min-width: 370px;
+}
+
+.m-t-150 {
+  margin-top: 150px;
+}
+
+.m-b-50 {
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 48px;
+  color: #32325d;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.mainTitle {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 23px;
+  color: #525f7f;
+}
+
+.m-b-40 {
+  margin-bottom: 40px;
+}
+
+.flexBetween {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.getStarted {
+  padding: 16px 24px;
+  font-size: 15px;
+}
+
+.quastions {
+  font-size: 19px;
+  color: #32325d;
+}
+
+.advantagesTitle {
+  margin-top: 250px;
+  width: 45%;
+  font-size: 48px;
+  color: #32325d;
+}
+
+.advantage {
+  margin-top: 60px;
+  width: 48%;
+  min-width: 370px;
+  padding: 60px 65px 100px 80px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: -10px 10px 25px -5px #d2d2f0;
+}
+
+.advantageIcon {
+  width: 176px;
+  height: 127px;
+  margin-bottom: 55px;
+}
+
+.like {
+  background-image: url("images/like.png");
+  background-repeat: no-repeat;
+}
+
+.monitor {
+  background-image: url("images/monitor.png");
+  background-repeat: no-repeat;
+}
+
+.income {
+  background-image: url("images/income.png");
+  background-repeat: no-repeat;
+}
+
+.advantageName {
+  font-size: 30px;
+  color: #212240;
+  margin-bottom: 30px;
+}
+
+.advantageDescription {
+  font-size: 18px;
+  color: #525f7f;
+}
+
+.proofSection {
+  padding-top: 190px;
+  padding-bottom: 100px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.proofSectionTitleWrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.proofSectionItems {
+  width: 25%;
+  min-width: 205px;
+  padding: 0 10px;
+  margin-top: 145px;
+}
+
+.items {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.item1 {
+  background-image: url("images/item1.png");
+  background-repeat: no-repeat;
+}
+
+.item2 {
+  background-image: url("images/item2.png");
+  background-repeat: no-repeat;
+}
+
+.item3 {
+  background-image: url("images/item3.png");
+  background-repeat: no-repeat;
+}
+
+.item4 {
+  background-image: url("images/item4.png");
+  background-repeat: no-repeat;
+}
+
+.item5 {
+  background-image: url("images/item5.png");
+  background-repeat: no-repeat;
+}
+
+.item6 {
+  background-image: url("images/item6.png");
+  background-repeat: no-repeat;
+}
+
+.item7 {
+  background-image: url("images/item7.png");
+  background-repeat: no-repeat;
+}
+
+.item8 {
+  background-image: url("images/item8.png");
+  background-repeat: no-repeat;
+}
+
+.item9 {
+  background-image: url("images/item9.png");
+  background-repeat: no-repeat;
+}
+
+.item10 {
+  background-image: url("images/item10.png");
+  background-repeat: no-repeat;
+}
+
+.item11 {
+  background-image: url("images/item11.png");
+  background-repeat: no-repeat;
+}
+
+.item12 {
+  background-image: url("images/item12.png");
+  background-repeat: no-repeat;
+}
+
+.name {
+  margin-top: 47px;
+  font-size: 20px;
+  color: #212240;
+}
+
+.specification {
+  margin-top: 19px;
+  font-size: 16px;
+  color: #525f7f;
+}
+
+.privilegeInfTitleWrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.privilege {
+  padding-top: 200px;
+}
+
+.privilegeInf {
+  width: 40%;
+}
+
+.f-s-42 {
+  font-size: 42px;
+}
+
+.driveRide {
+  width: 45%;
+}
+
+.f-s-30 {
+  font-size: 30px;
+}
+
+.f-s-16 {
+  font-size: 16px;
+}
+
+.privilegeImg {
+  width: 640px;
+  height: 460px;
+}
+
+.safety {
+  background-image: url("images/safety.png");
+  background-repeat: no-repeat;
+}
+
+.opening {
+  background-image: url("images/opening.png");
+  background-repeat: no-repeat;
+}
+
+.financeSection {
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 160px;
+}
+
+.financeSectionImg {
+  width: 750px;
+  height: 620px;
+  position: absolute;
+  top: 250px;
+  right: 0;
+  background-image: url("images/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.financeSectionwrapper {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.financedTitleWrapper {
+  margin: 0;
+  width: 60%;
+}
+
+.marginLeft {
+  margin: 0;
+}
+
+.financeSectionItem {
+  width: 35%;
+}
+
+.first {
+  margin-top: 160px;
+}
+
+.list {
+  padding-left: 30px;
+  list-style-image: url("images/marker.png");
+}
+
+.listTitle {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #32325d;
+}
+
+.listItem {
+  padding-left: 20px;
+  margin-bottom: 50px;
+  font-size: 21px;
+  color: #32325d;
+}
+
+.listWrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.getStartedSection {
+  padding-top: 190px;
+  padding-bottom: 160px;
+  background-color: #fafaff;
+}
+
+.getStartedTitleWrapper {
+  position: relative;
+  width: 40%;
+  min-width: 360px;
+}
+
+.getStartedTitleWrapper::before {
+  content: "";
+  width: 50px;
+  height: 10px;
+  background-image: url("images/object.png");
+  position: absolute;
+  top: -44px;
+  z-index: 3;
+}
+
+.gerStartedForm {
+  width: 50%;
+  min-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.formInput {
+  width: 70%;
+  height: 80px;
+  padding: 0;
+  padding-left: 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  font-size: 23px;
+  color: #8081ab;
+}
+
+.formButton {
+  position: relative;
+  width: 150px;
+  height: 80px;
+  padding: 0;
+  align-items: center;
+  text-align: left;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  font-size: 15px;
+  color: #845cff;
+  background-color: white;
+  cursor: pointer;
+}
+
+.formButton::after {
+  content: "";
+  width: 21px;
+  height: 18px;
+  position: absolute;
+  right: 25px;
+  background-image: url("images/getStarted.png");
+  background-repeat: no-repeat;
+}
+
+.footer {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: #212240;
+}
+
+.contactBlock {
+  width: 15%;
+  min-width: 180px;
+}
+
+.footerLogo {
+  background-image: url("images/footerLogo.png");
+}
+
+.contactItem {
+  margin-top: 60px;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.socialItemsWrapper {
+  max-width: 160px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialItems {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.linkedIn {
+  background-image: url("images/linkedIn.png");
+}
+
+.facebook {
+  background-image: url("images/facebook.png");
+}
+
+.twitter {
+  background-image: url("images/twitter.png");
+}
+
+.gitHub {
+  background-image: url("images/gitHub.png");
+}
+
+.linkBlock {
+  width: 70%;
+  min-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkList {
+  width: 25%;
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.linkListItem {
+  margin-bottom: 25px;
+}
+
+.linkListItem:last-child {
+  margin-bottom: 0;
+}
+
+.footerInfWrapper {
+  padding-top: 100px;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #555377;
+}
+
+.footerList {
+  width: 25%;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .privilegeInf {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .privilegeInfTitleWrapper {
+    text-align: center;
+  }
+
+  .privilegeImg {
+    margin: 20px auto;
+  }
+
+  .reverce {
+    flex-direction: column-reverse;
+  }
+
+  .financeSectionImg {
+    display: none;
+  }
+
+  .financeSectionItem {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .financedTitleWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .first {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .advantagesSectionWrapper {
+    flex-direction: column;
+  }
+
+  .advantagesTitle {
+    margin: 0;
+    width: 90%;
+    text-align: center;
+  }
+
+  .advantage {
+    width: 90%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  .backgroundMainShape {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    background-position: left bottom;
+    background-size: cover;
+  }
+
+  .mainBackground {
+    display: none;
+  }
+
+  .mainTown {
+    display: none;
+  }
+
+  .mainInfo {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .getStartedTitleWrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .gerStartedForm {
+    margin: 0 auto;
+  }
+
+  .privilegeInf {
+    width: 90%;
+  }
+
+  .listWrapper {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .financeSectionItem {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .listTitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .footerWrapper {
+    flex-direction: column;
+  }
+
+  .contactBlock {
+    margin-bottom: 50px;
+  }
+
+  .linkBlock {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .headerWrapper {
+    flex-direction: column;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .mainSection {
+    height: calc(100vh - 150px);
+  }
+
+  .privilegeImg {
+    width: 320px;
+    height: 230px;
+    background-size: cover;
+  }
+
+  .privilege {
+    padding-top: 100px;
+  }
+
+  .financeSection {
+    padding-top: 50px;
+  }
+
+  .proofSectionItemsWrapper {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 600px) {
+  .linkBlock {
+    min-width: 370px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linkList {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    font-size: 16px;
+  }
+
+  .headerNav {
+    min-width: 370px;
+  }
+
+  .quastions {
+    margin-top: 20px;
+  }
+
+  .gerStartedForm {
+    width: 100%;
+    min-width: 370px;
+  }
+}
